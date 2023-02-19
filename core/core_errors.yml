@@ -1,0 +1,197 @@
+# Defined error codes of Core Services. Merchant facing.
+# Format:
+#
+# errors:
+#   - code: core_error_code_1
+#     description: core_error_code_1_desc
+#   - code: core_error_code_2
+#     description: core_error_code_2_desc
+
+
+errors:
+  - code: account_already_exists
+    description: 
+  - code: account_country_invalid_address
+    description: 
+  - code: account_invalid
+    description: 
+  - code: account_number_invalid
+    description: 
+  - code: alipay_upgrade_required
+    description: 
+  - code: amount_too_large
+    description: 
+  - code: amount_too_small
+    description: 
+  - code: api_key_expired
+    description: 
+  - code: authentication_required
+    description: 
+  - code: balance_insufficient
+    description: 
+  - code: bank_account_exists
+    description: 
+  - code: bank_account_unusable
+    description: 
+  - code: bank_account_unverified
+    description: 
+  - code: bitcoin_upgrade_required
+    description: 
+  - code: card_declined
+    description: 
+  - code: charge_already_captured
+    description: 
+  - code: charge_already_refunded
+    description: 
+  - code: charge_disputed
+    description: 
+  - code: charge_exceeds_source_limit
+    description: 
+  - code: charge_expired_for_capture
+    description: 
+  - code: country_unsupported
+    description: 
+  - code: coupon_expired
+    description: 
+  - code: customer_max_subscriptions
+    description: 
+  - code: email_invalid
+    description: 
+  - code: expired_card
+    description: 
+  - code: idempotency_key_in_use
+    description: 
+  - code: incorrect_address
+    description: 
+  - code: incorrect_cvc
+    description: 
+  - code: incorrect_number
+    description: 
+  - code: incorrect_zip
+    description: 
+  - code: instant_payouts_unsupported
+    description: 
+  - code: invalid_card_type
+    description: 
+  - code: invalid_charge_amount
+    description: 
+  - code: invalid_cvc
+    description: 
+  - code: invalid_expiry_month
+    description: 
+  - code: invalid_expiry_year
+    description: 
+  - code: invalid_number
+    description: 
+  - code: invalid_source_usage
+    description: 
+  - code: invoice_no_customer_line_items
+    description: 
+  - code: invoice_no_subscription_line_items
+    description: 
+  - code: invoice_not_editable
+    description: 
+  - code: invoice_upcoming_none
+    description: 
+  - code: livemode_mismatch
+    description: 
+  - code: lock_timeout
+    description: 
+  - code: missing
+    description: 
+  - code: not_allowed_on_standard_account
+    description: 
+  - code: order_creation_failed
+    description: 
+  - code: order_required_settings
+    description: 
+  - code: order_status_invalid
+    description: 
+  - code: order_upstream_timeout
+    description: 
+  - code: out_of_inventory
+    description: 
+  - code: parameter_invalid_empty
+    description: 
+  - code: parameter_invalid_integer
+    description: 
+  - code: parameter_invalid_string_blank
+    description: 
+  - code: parameter_invalid_string_empty
+    description: 
+  - code: parameter_missing
+    description: 
+  - code: parameter_unknown
+    description: 
+  - code: parameters_exclusive
+    description: 
+  - code: payment_intent_authentication_failure
+    description: 
+  - code: payment_intent_incompatible_payment_method
+    description: 
+  - code: payment_intent_invalid_parameter
+    description: 
+  - code: payment_intent_payment_attempt_failed
+    description: 
+  - code: payment_intent_unexpected_state
+    description: 
+  - code: payment_method_unactivated
+    description: 
+  - code: payment_method_unexpected_state
+    description: 
+  - code: payouts_not_allowed
+    description: 
+  - code: platform_api_key_expired
+    description: 
+  - code: postal_code_invalid
+    description: 
+  - code: processing_error
+    description: 
+  - code: product_inactive
+    description: 
+  - code: rate_limit
+    description: 
+  - code: resource_already_exists
+    description: 
+  - code: resource_missing
+    description: 
+  - code: routing_number_invalid
+    description: 
+  - code: secret_key_required
+    description: 
+  - code: sepa_unsupported_account
+    description: 
+  - code: setup_attempt_failed
+    description: 
+  - code: setup_intent_authentication_failure
+    description: 
+  - code: setup_intent_unexpected_state
+    description: 
+  - code: shipping_calculation_failed
+    description: 
+  - code: sku_inactive
+    description: 
+  - code: state_unsupported
+    description: 
+  - code: tax_id_invalid
+    description: 
+  - code: taxes_calculation_failed
+    description: 
+  - code: testmode_charges_only
+    description: 
+  - code: tls_version_unsupported
+    description: 
+  - code: token_already_used
+    description: 
+  - code: token_in_use
+    description: 
+  - code: transfers_not_allowed
+    description: 
+  - code: upstream_order_creation_failed
+    description: 
+  - code: url_invalid
+    description: 
+  - code: not_supported
+    description: 
+  - code: unknown_error
+    description: 
