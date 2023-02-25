@@ -189,6 +189,4 @@ upstream_order_creation_failed:
 url_invalid:
   - url_invalid
 not_supported:
-  - not_supported
-unknown_error:
-  - unknown_error
+  - 
